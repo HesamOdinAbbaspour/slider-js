@@ -1,0 +1,121 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body{
+    background-image: url('../images/Background.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+  .container {
+   height: 100vh;
+    
+  }
+
+  .informations {
+    position: absolute;
+    top:25%;
+    left: 40%;
+    width: 20%;
+    height: 430px;
+    opacity: 0;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,.5);
+    padding: 20px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(25px);
+    
+  }
+  .informations.active {
+    opacity: 1;
+  }
+ 
+ 
+  h3 {
+    color:#fff;
+    text-align: center;
+  }
+ 
+  .input-box{
+    color: #fff;
+    margin-top: 10px;
+    text-align: justify;
+    width: 100%;
+    padding: 10px;
+    margin: 0px auto;
+  }
+  
+  button {
+    
+    height:40px;
+    background-color:#fff;
+    border:none;
+    border-radius:40px;
+    cursor:pointer;
+    font-size:1em;
+    color:#000;
+    font-weight:500;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .all, .back{
+    width: 70%;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+   
+  }
+  .back{
+    font-size: 15px;
+  }
+  .btns{
+    width: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top:75%;
+    left: 40%;
+    width: 20%;
+    padding: 12px;
+    
+  }
+ 
+  .imgBx{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content h3{
+    display: block;
+    opacity: 1;
+  }
+  
+  .content p{
+    opacity: 1;
+    display: block;
+  }
+  .imgBx img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+    
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+  }
+  .content{
+    margin-top: 210px;
+  }
+  
